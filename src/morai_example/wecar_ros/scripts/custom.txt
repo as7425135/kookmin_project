@@ -1,0 +1,6 @@
+person
+traffic red
+traffic green
+obstacle
+car
+left

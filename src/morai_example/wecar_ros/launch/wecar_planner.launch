@@ -1,0 +1,11 @@
+<launch>
+        <!-- args = "(추종할 경로 이름)" -->
+        <node pkg="wecar_ros" type="obstacle_detection.py" name="obstacle_detection" output="screen" />
+        <node pkg="wecar_ros" type="rotary_new.py" name="rotary" output="screen" />
+        <node pkg="wecar_ros" type="mission.py" name="waypoint_control" output="screen" />
+        
+	<node pkg="wecar_ros" type="wecar_planner.py" name="planner" args="new1 new2 new3 new_total" output="screen" />
+
+        <node pkg="rviz" type="rviz" name="rviz" args="-d $(find wecar_ros)/rviz/planner.rviz" />
+
+</launch>
