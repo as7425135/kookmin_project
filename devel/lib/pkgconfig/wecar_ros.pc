@@ -1,0 +1,8 @@
+prefix=/home/sunyoung/kookmin_project/devel
+
+Name: wecar_ros
+Description: Description of wecar_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+morai_example/wecar_msgs/morai_msgs:morai_example/wecar_msgs/vesc_msgs:morai_example/wecar_ros
+-DCATKIN_DEVEL_PREFIX=/home/sunyoung/kookmin_project/devel -DCMAKE_INSTALL_PREFIX=/home/sunyoung/kookmin_project/install -G Unix Makefiles
